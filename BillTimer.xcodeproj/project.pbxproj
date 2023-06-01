@@ -11,6 +11,7 @@
 		FCE1569F2A28EF13001B3919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1569E2A28EF13001B3919 /* ContentView.swift */; };
 		FCE156A12A28EF14001B3919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE156A02A28EF14001B3919 /* Assets.xcassets */; };
 		FCE156A42A28EF14001B3919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE156A32A28EF14001B3919 /* Preview Assets.xcassets */; };
+		FCE156AF2A28F721001B3919 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE156AE2A28F721001B3919 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FCE1569E2A28EF13001B3919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE156A02A28EF14001B3919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE156A32A28EF14001B3919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCE156AE2A28F721001B3919 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,11 @@
 		FCE1569B2A28EF13001B3919 /* BillTimer */ = {
 			isa = PBXGroup;
 			children = (
+				FCE156AD2A28F6B9001B3919 /* Resources */,
+				FCE156AC2A28F6A6001B3919 /* ViewModels */,
+				FCE156AB2A28F6A0001B3919 /* Models */,
+				FCE156AA2A28F696001B3919 /* Views */,
 				FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */,
-				FCE1569E2A28EF13001B3919 /* ContentView.swift */,
 				FCE156A02A28EF14001B3919 /* Assets.xcassets */,
 				FCE156A22A28EF14001B3919 /* Preview Content */,
 			);
@@ -65,6 +70,36 @@
 				FCE156A32A28EF14001B3919 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCE156AA2A28F696001B3919 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1569E2A28EF13001B3919 /* ContentView.swift */,
+				FCE156AE2A28F721001B3919 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCE156AB2A28F6A0001B3919 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCE156AC2A28F6A6001B3919 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FCE156AD2A28F6B9001B3919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE1569F2A28EF13001B3919 /* ContentView.swift in Sources */,
+				FCE156AF2A28F721001B3919 /* MainView.swift in Sources */,
 				FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
