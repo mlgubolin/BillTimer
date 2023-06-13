@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC77D4372A2E2C8A00F7E645 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77D4362A2E2C8A00F7E645 /* MenuView.swift */; };
+		FCCCABBD2A2E6C310096A889 /* AddBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCABBC2A2E6C310096A889 /* AddBillView.swift */; };
 		FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */; };
 		FCE1569F2A28EF13001B3919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1569E2A28EF13001B3919 /* ContentView.swift */; };
 		FCE156A12A28EF14001B3919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE156A02A28EF14001B3919 /* Assets.xcassets */; };
-		FCE156A42A28EF14001B3919 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE156A32A28EF14001B3919 /* Preview Assets.xcassets */; };
 		FCE156AF2A28F721001B3919 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE156AE2A28F721001B3919 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC77D4362A2E2C8A00F7E645 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FCCCABBC2A2E6C310096A889 /* AddBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillView.swift; sourceTree = "<group>"; };
 		FCE156992A28EF13001B3919 /* BillTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTimerApp.swift; sourceTree = "<group>"; };
 		FCE1569E2A28EF13001B3919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE156A02A28EF14001B3919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCE156A32A28EF14001B3919 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCE156AE2A28F721001B3919 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,6 +36,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC7252662A28FA9E00555A5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		FCE156902A28EF13001B3919 = {
 			isa = PBXGroup;
 			children = (
@@ -59,17 +68,9 @@
 				FCE156AA2A28F696001B3919 /* Views */,
 				FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */,
 				FCE156A02A28EF14001B3919 /* Assets.xcassets */,
-				FCE156A22A28EF14001B3919 /* Preview Content */,
+				FC7252662A28FA9E00555A5C /* Preview Content */,
 			);
 			path = BillTimer;
-			sourceTree = "<group>";
-		};
-		FCE156A22A28EF14001B3919 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FCE156A32A28EF14001B3919 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		FCE156AA2A28F696001B3919 /* Views */ = {
@@ -77,6 +78,8 @@
 			children = (
 				FCE1569E2A28EF13001B3919 /* ContentView.swift */,
 				FCE156AE2A28F721001B3919 /* MainView.swift */,
+				FC77D4362A2E2C8A00F7E645 /* MenuView.swift */,
+				FCCCABBC2A2E6C310096A889 /* AddBillView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,7 +163,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE156A42A28EF14001B3919 /* Preview Assets.xcassets in Resources */,
 				FCE156A12A28EF14001B3919 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCCABBD2A2E6C310096A889 /* AddBillView.swift in Sources */,
+				FC77D4372A2E2C8A00F7E645 /* MenuView.swift in Sources */,
 				FCE1569F2A28EF13001B3919 /* ContentView.swift in Sources */,
 				FCE156AF2A28F721001B3919 /* MainView.swift in Sources */,
 				FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */,
