@@ -16,4 +16,11 @@ struct BillTimerApp: App {
                 .environment(\.managedObjectContext, billDataController.container.viewContext)
         }
     }
+    
+    init(){
+        ValueTransformer.setValueTransformer(
+            SerializableColorTransformer(),
+            forName: NSValueTransformerName(
+                rawValue: "SerializableColorTransformer"))
+    }
 }

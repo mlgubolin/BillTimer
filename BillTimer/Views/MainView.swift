@@ -8,33 +8,35 @@
 import SwiftUI
 
 struct MainView: View {
-    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Bill>
+    @FetchRequest(sortDescriptors: []) var bills: FetchedResults<Bill>
     @State var isShowMenu: Bool = false
     var body: some View {
         NavigationView {
             ZStack {
-                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-                    .disabled(self.isShowMenu)
-                    .toolbar{
-                        ToolbarItem (placement: .navigationBarTrailing){
-                            Button{
-                                withAnimation{
-                                    self.isShowMenu.toggle()
-                                }
-                            } label:{
-                                Image(systemName: "gear")
+                VStack{
+                    List(bills){ bill in
+                        Text(bill.name ?? "None")
+                    }
+                }
+                .disabled(self.isShowMenu)
+                .toolbar{
+                    ToolbarItem (placement: .navigationBarTrailing){
+                        Button{
+                            withAnimation{
+                                self.isShowMenu.toggle()
                             }
-                        }
-                        ToolbarItem (placement: .navigationBarLeading){
-                            Button{
-                                withAnimation{
-                                    self.isShowMenu.toggle()
-                                }
-                            } label:{
-                                Image(systemName: "plus")
-                            }
+                        } label:{
+                            Image(systemName: "gear")
                         }
                     }
+                    ToolbarItem (placement: .navigationBarLeading){
+                        NavigationLink {
+                            AddBillView()
+                        } label:{
+                            Image(systemName: "plus")
+                        }
+                    }
+                }
                 if self.isShowMenu {
                     MenuView()
                         .transition(.move(edge: .bottom))
@@ -48,7 +50,7 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-//        MainView()
+        //        MainView()
         MainView()
             .previewDevice("iPhone SE (3rd generation)")
     }
