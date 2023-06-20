@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0A93972A41FC7200FC11AF /* BillDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A93962A41FC7200FC11AF /* BillDataController.swift */; };
+		FC0A939D2A41FDF000FC11AF /* BillModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC0A939C2A41FDF000FC11AF /* BillModel.xcdatamodeld */; };
 		FC77D4372A2E2C8A00F7E645 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77D4362A2E2C8A00F7E645 /* MenuView.swift */; };
 		FCCCABBD2A2E6C310096A889 /* AddBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCABBC2A2E6C310096A889 /* AddBillView.swift */; };
 		FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */; };
-		FCE1569F2A28EF13001B3919 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1569E2A28EF13001B3919 /* ContentView.swift */; };
 		FCE156A12A28EF14001B3919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE156A02A28EF14001B3919 /* Assets.xcassets */; };
 		FCE156AF2A28F721001B3919 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE156AE2A28F721001B3919 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC0A93962A41FC7200FC11AF /* BillDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDataController.swift; sourceTree = "<group>"; };
 		FC77D4362A2E2C8A00F7E645 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		FCCCABBC2A2E6C310096A889 /* AddBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillView.swift; sourceTree = "<group>"; };
 		FCE156992A28EF13001B3919 /* BillTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTimerApp.swift; sourceTree = "<group>"; };
-		FCE1569E2A28EF13001B3919 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE156A02A28EF14001B3919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE156AE2A28F721001B3919 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,9 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC0A939E2A41FDF500FC11AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC0A93962A41FC7200FC11AF /* BillDataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		FC7252662A28FA9E00555A5C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FCE156A02A28EF14001B3919 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -62,12 +72,12 @@
 		FCE1569B2A28EF13001B3919 /* BillTimer */ = {
 			isa = PBXGroup;
 			children = (
+				FC0A939E2A41FDF500FC11AF /* Controllers */,
 				FCE156AD2A28F6B9001B3919 /* Resources */,
 				FCE156AC2A28F6A6001B3919 /* ViewModels */,
 				FCE156AB2A28F6A0001B3919 /* Models */,
 				FCE156AA2A28F696001B3919 /* Views */,
 				FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */,
-				FCE156A02A28EF14001B3919 /* Assets.xcassets */,
 				FC7252662A28FA9E00555A5C /* Preview Content */,
 			);
 			path = BillTimer;
@@ -76,7 +86,6 @@
 		FCE156AA2A28F696001B3919 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FCE1569E2A28EF13001B3919 /* ContentView.swift */,
 				FCE156AE2A28F721001B3919 /* MainView.swift */,
 				FC77D4362A2E2C8A00F7E645 /* MenuView.swift */,
 				FCCCABBC2A2E6C310096A889 /* AddBillView.swift */,
@@ -87,6 +96,7 @@
 		FCE156AB2A28F6A0001B3919 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FC0A939C2A41FDF000FC11AF /* BillModel.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,9 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0A939D2A41FDF000FC11AF /* BillModel.xcdatamodeld in Sources */,
+				FC0A93972A41FC7200FC11AF /* BillDataController.swift in Sources */,
 				FCCCABBD2A2E6C310096A889 /* AddBillView.swift in Sources */,
 				FC77D4372A2E2C8A00F7E645 /* MenuView.swift in Sources */,
-				FCE1569F2A28EF13001B3919 /* ContentView.swift in Sources */,
 				FCE156AF2A28F721001B3919 /* MainView.swift in Sources */,
 				FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */,
 			);
@@ -379,6 +390,18 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC0A939C2A41FDF000FC11AF /* BillModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			name = BillModel.xcdatamodeld;
+			path = ../BillModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FCE156912A28EF13001B3919 /* Project object */;
 }

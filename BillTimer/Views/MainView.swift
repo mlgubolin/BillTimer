@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Bill>
     @State var isShowMenu: Bool = false
     var body: some View {
         NavigationView {

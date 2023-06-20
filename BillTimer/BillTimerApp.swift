@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct BillTimerApp: App {
+    @StateObject private var billDataController = BillDataController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(\.managedObjectContext, billDataController.container.viewContext)
         }
     }
 }
