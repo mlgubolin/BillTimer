@@ -13,7 +13,9 @@ struct MainView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                VStack{
+                VStack {
+                    Text("Next Bills")
+                        .frame(alignment: .leading)
                     List(bills){ bill in
                         Text(bill.name ?? "None")
                     }
@@ -53,5 +55,8 @@ struct MainView_Previews: PreviewProvider {
         //        MainView()
         MainView()
             .previewDevice("iPhone SE (3rd generation)")
+        MainView()
+            .previewDevice("iPhone SE (3rd generation)")
+            .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }

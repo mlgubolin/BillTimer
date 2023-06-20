@@ -10,6 +10,7 @@
 		FC0A93972A41FC7200FC11AF /* BillDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A93962A41FC7200FC11AF /* BillDataController.swift */; };
 		FC1F9BF42A4200420029E768 /* BillModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC1F9BF22A4200420029E768 /* BillModel.xcdatamodeld */; };
 		FC1F9BF72A42029D0029E768 /* SerializableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F9BF62A42029D0029E768 /* SerializableColor.swift */; };
+		FC1F9BFB2A423EA60029E768 /* BillDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F9BFA2A423EA60029E768 /* BillDetailsView.swift */; };
 		FC77D4372A2E2C8A00F7E645 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77D4362A2E2C8A00F7E645 /* MenuView.swift */; };
 		FCCCABBD2A2E6C310096A889 /* AddBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCCABBC2A2E6C310096A889 /* AddBillView.swift */; };
 		FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1569C2A28EF13001B3919 /* BillTimerApp.swift */; };
@@ -21,6 +22,7 @@
 		FC0A93962A41FC7200FC11AF /* BillDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDataController.swift; sourceTree = "<group>"; };
 		FC1F9BF32A4200420029E768 /* BillModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BillModel.xcdatamodel; sourceTree = "<group>"; };
 		FC1F9BF62A42029D0029E768 /* SerializableColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializableColor.swift; sourceTree = "<group>"; };
+		FC1F9BFA2A423EA60029E768 /* BillDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailsView.swift; sourceTree = "<group>"; };
 		FC77D4362A2E2C8A00F7E645 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		FCCCABBC2A2E6C310096A889 /* AddBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillView.swift; sourceTree = "<group>"; };
 		FCE156992A28EF13001B3919 /* BillTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,7 @@
 				FCE156AE2A28F721001B3919 /* MainView.swift */,
 				FC77D4362A2E2C8A00F7E645 /* MenuView.swift */,
 				FCCCABBC2A2E6C310096A889 /* AddBillView.swift */,
+				FC1F9BFA2A423EA60029E768 /* BillDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				FC1F9BF42A4200420029E768 /* BillModel.xcdatamodeld in Sources */,
 				FC0A93972A41FC7200FC11AF /* BillDataController.swift in Sources */,
 				FCCCABBD2A2E6C310096A889 /* AddBillView.swift in Sources */,
+				FC1F9BFB2A423EA60029E768 /* BillDetailsView.swift in Sources */,
 				FC77D4372A2E2C8A00F7E645 /* MenuView.swift in Sources */,
 				FCE156AF2A28F721001B3919 /* MainView.swift in Sources */,
 				FCE1569D2A28EF13001B3919 /* BillTimerApp.swift in Sources */,
