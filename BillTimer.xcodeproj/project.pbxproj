@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0A858C2A608E95008FC727 /* SerializableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A858B2A608E95008FC727 /* SerializableColor.swift */; };
+		FC0A858F2A608EB0008FC727 /* BillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A858E2A608EB0008FC727 /* BillViewModel.swift */; };
+		FC0A85962A608EC7008FC727 /* AddBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A85912A608EC7008FC727 /* AddBillView.swift */; };
+		FC0A85972A608EC7008FC727 /* BillDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A85922A608EC7008FC727 /* BillDetailsView.swift */; };
+		FC0A85982A608EC7008FC727 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A85932A608EC7008FC727 /* MenuView.swift */; };
+		FC0A85992A608EC7008FC727 /* BillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A85942A608EC7008FC727 /* BillListView.swift */; };
+		FC0A859A2A608EC7008FC727 /* EditBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0A85952A608EC7008FC727 /* EditBillView.swift */; };
+		FC4354492A6F03E300088517 /* BillStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4354482A6F03E300088517 /* BillStack.swift */; };
+		FC43544C2A6F04AF00088517 /* BillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43544B2A6F04AF00088517 /* BillManager.swift */; };
+		FCD158922A608BA300A29706 /* BillTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD158912A608BA300A29706 /* BillTimerApp.swift */; };
+		FCD158962A608BA500A29706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD158952A608BA500A29706 /* Assets.xcassets */; };
+		FCD158992A608BA500A29706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD158982A608BA500A29706 /* Preview Assets.xcassets */; };
+		FCD1589B2A608BA500A29706 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1589A2A608BA500A29706 /* Persistence.swift */; };
+		FCD1589E2A608BA500A29706 /* BillTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCD1589C2A608BA500A29706 /* BillTimer.xcdatamodeld */; };
+		FCD158A82A608BA500A29706 /* BillTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD158A72A608BA500A29706 /* BillTimerTests.swift */; };
+		FCD158B22A608BA500A29706 /* BillTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD158B12A608BA500A29706 /* BillTimerUITests.swift */; };
+		FCD158B42A608BA500A29706 /* BillTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD158B32A608BA500A29706 /* BillTimerUITestsLaunchTests.swift */; };
+		FCED266F2A61F38600C22D62 /* BillFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED266E2A61F38600C22D62 /* BillFormView.swift */; };
+		FCF543232A61A8CB0091C8F1 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF543222A61A8CB0091C8F1 /* Bill.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD158A42A608BA500A29706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD158862A608BA300A29706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD1588D2A608BA300A29706;
+			remoteInfo = BillTimer;
+		};
+		FCD158AE2A608BA500A29706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD158862A608BA300A29706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD1588D2A608BA300A29706;
+			remoteInfo = BillTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0A858B2A608E95008FC727 /* SerializableColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializableColor.swift; sourceTree = "<group>"; };
+		FC0A858E2A608EB0008FC727 /* BillViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillViewModel.swift; sourceTree = "<group>"; };
+		FC0A85912A608EC7008FC727 /* AddBillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBillView.swift; sourceTree = "<group>"; };
+		FC0A85922A608EC7008FC727 /* BillDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailsView.swift; sourceTree = "<group>"; };
+		FC0A85932A608EC7008FC727 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FC0A85942A608EC7008FC727 /* BillListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillListView.swift; sourceTree = "<group>"; };
+		FC0A85952A608EC7008FC727 /* EditBillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBillView.swift; sourceTree = "<group>"; };
+		FC4354482A6F03E300088517 /* BillStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillStack.swift; sourceTree = "<group>"; };
+		FC43544B2A6F04AF00088517 /* BillManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillManager.swift; sourceTree = "<group>"; };
+		FCD1588E2A608BA300A29706 /* BillTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD158912A608BA300A29706 /* BillTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTimerApp.swift; sourceTree = "<group>"; };
+		FCD158952A608BA500A29706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD158982A608BA500A29706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCD1589A2A608BA500A29706 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FCD1589D2A608BA500A29706 /* BillTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BillTimer.xcdatamodel; sourceTree = "<group>"; };
+		FCD158A32A608BA500A29706 /* BillTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD158A72A608BA500A29706 /* BillTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTimerTests.swift; sourceTree = "<group>"; };
+		FCD158AD2A608BA500A29706 /* BillTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD158B12A608BA500A29706 /* BillTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTimerUITests.swift; sourceTree = "<group>"; };
+		FCD158B32A608BA500A29706 /* BillTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCED266E2A61F38600C22D62 /* BillFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillFormView.swift; sourceTree = "<group>"; };
+		FCF543222A61A8CB0091C8F1 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD1588B2A608BA300A29706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD158A02A608BA500A29706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD158AA2A608BA500A29706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0A85872A608E6E008FC727 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1589A2A608BA500A29706 /* Persistence.swift */,
+				FC43544B2A6F04AF00088517 /* BillManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC0A858A2A608E8D008FC727 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC0A858B2A608E95008FC727 /* SerializableColor.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC0A858D2A608EA7008FC727 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC0A858E2A608EB0008FC727 /* BillViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC0A85902A608EC1008FC727 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC0A85912A608EC7008FC727 /* AddBillView.swift */,
+				FC0A85922A608EC7008FC727 /* BillDetailsView.swift */,
+				FC0A85942A608EC7008FC727 /* BillListView.swift */,
+				FC0A85952A608EC7008FC727 /* EditBillView.swift */,
+				FC0A85932A608EC7008FC727 /* MenuView.swift */,
+				FCED266E2A61F38600C22D62 /* BillFormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCD158852A608BA300A29706 = {
+			isa = PBXGroup;
+			children = (
+				FCD158902A608BA300A29706 /* BillTimer */,
+				FCD158A62A608BA500A29706 /* BillTimerTests */,
+				FCD158B02A608BA500A29706 /* BillTimerUITests */,
+				FCD1588F2A608BA300A29706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD1588F2A608BA300A29706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1588E2A608BA300A29706 /* BillTimer.app */,
+				FCD158A32A608BA500A29706 /* BillTimerTests.xctest */,
+				FCD158AD2A608BA500A29706 /* BillTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD158902A608BA300A29706 /* BillTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1589C2A608BA500A29706 /* BillTimer.xcdatamodeld */,
+				FCF543212A61A8A80091C8F1 /* Models */,
+				FC0A85902A608EC1008FC727 /* Views */,
+				FC0A858D2A608EA7008FC727 /* ViewModels */,
+				FC0A858A2A608E8D008FC727 /* Resources */,
+				FC0A85872A608E6E008FC727 /* Controllers */,
+				FCD158912A608BA300A29706 /* BillTimerApp.swift */,
+				FCD158952A608BA500A29706 /* Assets.xcassets */,
+				FCD158972A608BA500A29706 /* Preview Content */,
+			);
+			path = BillTimer;
+			sourceTree = "<group>";
+		};
+		FCD158972A608BA500A29706 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCD158982A608BA500A29706 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCD158A62A608BA500A29706 /* BillTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD158A72A608BA500A29706 /* BillTimerTests.swift */,
+			);
+			path = BillTimerTests;
+			sourceTree = "<group>";
+		};
+		FCD158B02A608BA500A29706 /* BillTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD158B12A608BA500A29706 /* BillTimerUITests.swift */,
+				FCD158B32A608BA500A29706 /* BillTimerUITestsLaunchTests.swift */,
+			);
+			path = BillTimerUITests;
+			sourceTree = "<group>";
+		};
+		FCF543212A61A8A80091C8F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCF543222A61A8CB0091C8F1 /* Bill.swift */,
+				FC4354482A6F03E300088517 /* BillStack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD1588D2A608BA300A29706 /* BillTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD158B72A608BA500A29706 /* Build configuration list for PBXNativeTarget "BillTimer" */;
+			buildPhases = (
+				FCD1588A2A608BA300A29706 /* Sources */,
+				FCD1588B2A608BA300A29706 /* Frameworks */,
+				FCD1588C2A608BA300A29706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillTimer;
+			productName = BillTimer;
+			productReference = FCD1588E2A608BA300A29706 /* BillTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD158A22A608BA500A29706 /* BillTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD158BA2A608BA500A29706 /* Build configuration list for PBXNativeTarget "BillTimerTests" */;
+			buildPhases = (
+				FCD1589F2A608BA500A29706 /* Sources */,
+				FCD158A02A608BA500A29706 /* Frameworks */,
+				FCD158A12A608BA500A29706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD158A52A608BA500A29706 /* PBXTargetDependency */,
+			);
+			name = BillTimerTests;
+			productName = BillTimerTests;
+			productReference = FCD158A32A608BA500A29706 /* BillTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD158AC2A608BA500A29706 /* BillTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD158BD2A608BA500A29706 /* Build configuration list for PBXNativeTarget "BillTimerUITests" */;
+			buildPhases = (
+				FCD158A92A608BA500A29706 /* Sources */,
+				FCD158AA2A608BA500A29706 /* Frameworks */,
+				FCD158AB2A608BA500A29706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD158AF2A608BA500A29706 /* PBXTargetDependency */,
+			);
+			name = BillTimerUITests;
+			productName = BillTimerUITests;
+			productReference = FCD158AD2A608BA500A29706 /* BillTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD158862A608BA300A29706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FCD1588D2A608BA300A29706 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FCD158A22A608BA500A29706 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FCD1588D2A608BA300A29706;
+					};
+					FCD158AC2A608BA500A29706 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FCD1588D2A608BA300A29706;
+					};
+				};
+			};
+			buildConfigurationList = FCD158892A608BA300A29706 /* Build configuration list for PBXProject "BillTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD158852A608BA300A29706;
+			productRefGroup = FCD1588F2A608BA300A29706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD1588D2A608BA300A29706 /* BillTimer */,
+				FCD158A22A608BA500A29706 /* BillTimerTests */,
+				FCD158AC2A608BA500A29706 /* BillTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD1588C2A608BA300A29706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD158992A608BA500A29706 /* Preview Assets.xcassets in Resources */,
+				FCD158962A608BA500A29706 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD158A12A608BA500A29706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD158AB2A608BA500A29706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD1588A2A608BA300A29706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0A85992A608EC7008FC727 /* BillListView.swift in Sources */,
+				FCF543232A61A8CB0091C8F1 /* Bill.swift in Sources */,
+				FCD1589B2A608BA500A29706 /* Persistence.swift in Sources */,
+				FC0A858C2A608E95008FC727 /* SerializableColor.swift in Sources */,
+				FC0A85962A608EC7008FC727 /* AddBillView.swift in Sources */,
+				FCD1589E2A608BA500A29706 /* BillTimer.xcdatamodeld in Sources */,
+				FC4354492A6F03E300088517 /* BillStack.swift in Sources */,
+				FC0A85982A608EC7008FC727 /* MenuView.swift in Sources */,
+				FCED266F2A61F38600C22D62 /* BillFormView.swift in Sources */,
+				FC0A858F2A608EB0008FC727 /* BillViewModel.swift in Sources */,
+				FC0A859A2A608EC7008FC727 /* EditBillView.swift in Sources */,
+				FC0A85972A608EC7008FC727 /* BillDetailsView.swift in Sources */,
+				FC43544C2A6F04AF00088517 /* BillManager.swift in Sources */,
+				FCD158922A608BA300A29706 /* BillTimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD1589F2A608BA500A29706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD158A82A608BA500A29706 /* BillTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD158A92A608BA500A29706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD158B22A608BA500A29706 /* BillTimerUITests.swift in Sources */,
+				FCD158B42A608BA500A29706 /* BillTimerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD158A52A608BA500A29706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD1588D2A608BA300A29706 /* BillTimer */;
+			targetProxy = FCD158A42A608BA500A29706 /* PBXContainerItemProxy */;
+		};
+		FCD158AF2A608BA500A29706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD1588D2A608BA300A29706 /* BillTimer */;
+			targetProxy = FCD158AE2A608BA500A29706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCD158B52A608BA500A29706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD158B62A608BA500A29706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD158B82A608BA500A29706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BillTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SZXN5K9S4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = droptable.BillTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD158B92A608BA500A29706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BillTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SZXN5K9S4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = droptable.BillTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCD158BB2A608BA500A29706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZXN5K9S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = droptable.BillTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BillTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BillTimer";
+			};
+			name = Debug;
+		};
+		FCD158BC2A608BA500A29706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZXN5K9S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = droptable.BillTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BillTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BillTimer";
+			};
+			name = Release;
+		};
+		FCD158BE2A608BA500A29706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZXN5K9S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = droptable.BillTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BillTimer;
+			};
+			name = Debug;
+		};
+		FCD158BF2A608BA500A29706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SZXN5K9S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = droptable.BillTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BillTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD158892A608BA300A29706 /* Build configuration list for PBXProject "BillTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD158B52A608BA500A29706 /* Debug */,
+				FCD158B62A608BA500A29706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD158B72A608BA500A29706 /* Build configuration list for PBXNativeTarget "BillTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD158B82A608BA500A29706 /* Debug */,
+				FCD158B92A608BA500A29706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD158BA2A608BA500A29706 /* Build configuration list for PBXNativeTarget "BillTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD158BB2A608BA500A29706 /* Debug */,
+				FCD158BC2A608BA500A29706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD158BD2A608BA500A29706 /* Build configuration list for PBXNativeTarget "BillTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD158BE2A608BA500A29706 /* Debug */,
+				FCD158BF2A608BA500A29706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCD1589C2A608BA500A29706 /* BillTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCD1589D2A608BA500A29706 /* BillTimer.xcdatamodel */,
+			);
+			currentVersion = FCD1589D2A608BA500A29706 /* BillTimer.xcdatamodel */;
+			path = BillTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCD158862A608BA300A29706 /* Project object */;
+}
