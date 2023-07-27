@@ -47,7 +47,7 @@ struct BillListView: View {
                     Button {
                         showingAddView.toggle()
                     } label: {
-                        Label("Add food", systemImage: "plus.circle")
+                        Label("Add Bill", systemImage: "plus.circle")
                     }
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
